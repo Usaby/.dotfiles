@@ -1,0 +1,7 @@
+#!/usr/bin/sh
+
+if [ ! -emacs $1 ] ; then
+    touch $1;
+fi
+
+open -a emacs $1;
