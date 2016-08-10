@@ -1,6 +1,7 @@
 # 少し凝った zshrc
 # brewでインストールしたtexのpath
 export PATH=/Library/TeX/texbin:$PATH
+export PATH="/usr/local/bin:$PATH"
 
 ########################################
 
