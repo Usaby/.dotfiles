@@ -23,9 +23,7 @@ brew install aspell
 brew install imagemagick
 brew install gcc
 brew install gnuplot
-brew install python
-brew install python3
-pip install jupyter
+#pip install jupyter
 
 # update and upgrade
 brew update

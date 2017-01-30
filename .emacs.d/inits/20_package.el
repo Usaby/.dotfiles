@@ -8,6 +8,7 @@
 (require 'cl)
 (defvar installing-package-list
   '(
+    auto-complete
     helm
     helm-c-yasnippet
     migemo

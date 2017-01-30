@@ -1,4 +1,3 @@
-# 少し凝った zshrc
 # brewでインストールしたtexのpath
 export PATH=/Library/TeX/texbin:$PATH
 export PATH="/usr/local/bin:$PATH"
@@ -136,7 +135,6 @@ alias evernote='open -a evernote'
 alias itunes='open -a iTunes'
 alias safari='open -a Safari'
 alias texshop='open -a Texshop'
-alias twitter='open -a YoruFukurou'
 
 # コマンド
 alias la='ls -a'
@@ -211,3 +209,9 @@ if which peco &> /dev/null; then
     zle -N peco-cdr
     bindkey '^xb' peco-cdr
 fi
+
+#pyenv用の設定
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:/usr/local/lib/python2.7/site-packages:
+export PYENV_ROOT="${HOME}/.pyenv"
+export PATH="${PYENV_ROOT}/bin:$PATH"
+eval "$(pyenv init -)"
