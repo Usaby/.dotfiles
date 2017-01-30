@@ -1,6 +1,6 @@
 # brewでインストールしたtexのpath
 export PATH=/Library/TeX/texbin:$PATH
-export PATH="/usr/local/bin:$PATH"
+export PATH=/usr/local/bin:$PATH
 
 ########################################
 
@@ -211,7 +211,6 @@ if which peco &> /dev/null; then
 fi
 
 #pyenv用の設定
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:/usr/local/lib/python2.7/site-packages:
 export PYENV_ROOT="${HOME}/.pyenv"
 export PATH="${PYENV_ROOT}/bin:$PATH"
 eval "$(pyenv init -)"
